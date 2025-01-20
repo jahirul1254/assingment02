@@ -1,0 +1,169 @@
+/* styles.css */
+body {
+    margin: 0;
+    background-color: #fafafa;
+}
+.display-flex{
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(73, 69, 69, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 85px;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    opacity: 0.8;
+}
+
+.contact-button {
+    background-color: #e21c1c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-button:hover {
+    background-color: #e69500;
+}
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: justify;
+
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #e3f2fd;
+    padding-left: 80px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #ff9800;
+}
+
+.hero-content span {
+    color: #2196f3;
+}
+
+.hero-image {
+    max-width: 40%;
+}
+
+.curriculum, .stories {
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.curriculum h2, .stories h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.curriculum-cards, .stories-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card, .story-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.story-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.footer-nav a {
+    color: #ffffff;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.picture-div2{
+    
+}
+.read-more{
+    color: green;
+}
+.agin-read{
+    color: #ff9800;
+}
+.agin-read-more{
+    color: blue;
+}
+.all-photos{
+    display: flex;
+}
